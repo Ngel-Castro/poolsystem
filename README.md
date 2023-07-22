@@ -44,3 +44,10 @@ Create PoolMaintenance
 Delete PoolMaintenance
 Archive PoolMaintenance
 Update PoolMaintenance
+
+
+# Link Rerefences: 
+
+https://fastapi.tiangolo.com/tutorial/bigger-applications/
+https://www.youtube.com/watch?v=Vj-iU-8_xLs&t=439s&ab_channel=ArjanCodes
+https://www.tutorialspoint.com/fastapi/fastapi_uvicorn.htm

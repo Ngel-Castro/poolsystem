@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pymongo = "^4.4.1"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.1"
+pydantic = "^2.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -16,3 +19,7 @@ pre-commit = "^3.3.3"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+start = "poolsystem.src.main:start"
