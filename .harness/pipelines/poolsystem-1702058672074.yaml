@@ -19,15 +19,18 @@ pipeline:
             steps:
               - step:
                   identifier: echo
-                  name: echo
+                  name: build application
                   spec:
-                    command: echo hello world
+                    shell: Bash
+                    command: |-
+                      echo hello world
+                      ls -la
                   timeout: ""
                   type: Run
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
