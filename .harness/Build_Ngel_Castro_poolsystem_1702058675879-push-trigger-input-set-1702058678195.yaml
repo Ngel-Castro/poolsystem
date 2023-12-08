@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ngel_Castro_poolsystem_1702058675879-push-trigger-input-set
+  identifier: Build_Ngel_Castro_poolsystem_1702058675879pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Ngel_Castro_poolsystem_1702058675879
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
